@@ -18,3 +18,15 @@
         margin-top:-40px  ;
         
 }
+.fundo{
+background-color: rgb(242, 237,237);
+text-align: left;
+margin:auto;
+width: 90%;
+}
+.fundo2{
+    background-color: rgb(242, 237,237);
+    text-align: center;
+    margin:auto;
+    width: 90%;
+    }
