@@ -49,14 +49,15 @@
                     </p>
                     </div>
     
-            <form class="jumbotron" action="#" >
+            <form class="jumbotron" action="#" onsubmit="return testarformulario(form)" > 
                     <div class="form-group">
                       <label for="exampleFormControlInput1">Endereço de email</label>
-                      <input type="email" class="form-control shadow-lg p-3 mb-5 bg-white rounded" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                      <input name="email" type="email" class="input-text form-control shadow-lg p-3 mb-5 bg-white rounded" placeholder="nome@exemplo.com">
+                      
                     </div>
                     <div class="form-group">
                       <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
-                      <textarea name="nome" class="form-control input-text shadow-lg p-3 mb-5 bg-white rounded" id="exampleFormControlTextarea1" rows="3" placeholder="insira sua sugestão ou indicação aqui!"></textarea>
+                      <textarea name="texto" class="form-control input-text shadow-lg p-3 mb-5 bg-white rounded" id="texto" rows="3" placeholder="insira sua sugestão ou indicação aqui!"></textarea>
                     </div>
                        <input type="submit" value="Enviar" onclick="return validar()" />
 						<input type="reset" value="Resetar" />
